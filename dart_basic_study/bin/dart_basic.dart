@@ -16,8 +16,17 @@
 import 'dart:math';
 
 void main() {
-  print('여기에 작성');
-  basic1();
+  functionStudyReturnType();
+
+  //반환타입 함수명(메개변수){
+  // 실행문 ;
+  //};
+
+  String functionStudyReturnType() {
+    print('functionStudyReturnType1');
+    print('functionStudyReturnType2');
+    return '완료';
+  }
 }
 
 void basic19forIn() {
