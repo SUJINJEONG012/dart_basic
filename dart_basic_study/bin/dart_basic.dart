@@ -16,7 +16,8 @@
 import 'dart:math';
 
 void main() {
-  functionStudyReturnType();
+  String message = functionStudyReturnType();
+  print(message);
 }
 //반환타입 함수명(메개변수){
 // 실행문 ;
