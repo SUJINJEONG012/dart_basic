@@ -18,24 +18,25 @@ import 'dart:math';
 void main() {
   // String message = functionStudyReturnType();
   // print(message);
-  int sum = plus(1, 2);
-  print(sum);
 
-  sum = plus(33, 40);
-  print(sum);
-  sum = plus(3, 120);
-  print(sum);
-  sum = plus(1003, 4440);
-  print(sum);
-  sum = plus(90, 20);
-  print(sum);
+  // int sum = plus(1, 2);
+  // print('1+2= $sum');
+
+  plus(33, 40);
+
+  plus(3, 120);
+
+  plus(1003, 4440);
+
+  plus(90, 20);
 }
 //반환타입 함수명(메개변수){
 // 실행문 ;
 //};
 
-int plus(int a, int b) {
-  return a + b;
+void plus(int a, int b) {
+  print(' $a + $b = ${a + b}');
+  //return a + b; //아웃풋, 뱉는다.
 }
 
 String functionStudyReturnType() {
